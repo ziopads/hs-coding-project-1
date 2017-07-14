@@ -31,3 +31,37 @@ footer {
   display: table;
   clear: both;
 }
+
+
+
+/* article */
+article .date {
+  position: absolute;
+  margin-left: -95px;
+  border-right: 1 px dotted lightgray;
+  padding-top: 6px;
+  width: 70px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-family: Vollkorn, Georgia, serif;
+  text-align: center;
+}
+
+article .date .month {
+  font-size: 18px;
+  line-height: 15px;
+  display: block;
+  text-transform: uppercase;
+}
+
+article .date .day {
+  font-size: 30px;
+  line-height: 32px;
+  display: block;
+}
+
+article .date .year {
+  font-size: 15px;
+  line-height: 15px;
+  display: block;
+}
